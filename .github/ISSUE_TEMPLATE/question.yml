@@ -1,0 +1,21 @@
+name: Question
+description: Help with setting up or using PlugVR.
+labels: ["question"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Ask away. The [support page](https://plugvr.app/support) and the [setup guide](https://plugvr.app/setup) may have the answer already, but you don't have to look first.
+
+        This question is public, so keep your library private. Never post your API key, and leave out scene titles, performer names, your server's address and pictures of your library, or write to info@plugvr.app instead.
+  - type: textarea
+    id: question
+    attributes:
+      label: What do you need help with?
+    validations:
+      required: true
+  - type: input
+    id: versions
+    attributes:
+      label: Versions, if they matter
+      description: PlugVR's, your headset's and Stash's.

@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Questions and troubleshooting
+    url: https://plugvr.app/support
+    about: Answers to the common questions, and what to try when something doesn't work.
+  - name: Email, for anything private
+    url: https://plugvr.app/support#contact
+    about: Write to info@plugvr.app. Security problems go there too, never into a public issue.

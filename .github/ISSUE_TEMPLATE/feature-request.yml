@@ -1,0 +1,22 @@
+name: Feature request
+description: Something PlugVR doesn't do yet, or could do better.
+labels: ["feature"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for telling us what's missing. Only the first box is needed.
+
+        This request is public, so keep your library private: leave out scene titles, performer names, your server's address and pictures of your library.
+  - type: textarea
+    id: what
+    attributes:
+      label: What should PlugVR do?
+      description: In your own words.
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: What would you use it for?
+      description: What you are trying to do tells us more than the feature's name.

@@ -1,0 +1,32 @@
+name: Bug report
+description: Something in PlugVR doesn't work as it should.
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for telling us. Only the first box is needed: fill in what you know of the rest, and leave out what you don't.
+
+        This report is public, so keep your library private. Never post your API key, and leave out scene titles, performer names, your server's address and pictures of your library, or send them to info@plugvr.app instead.
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: In your own words. What you expected instead, the steps that lead to it and a screenshot or capture of the problem all help, if you have them.
+    validations:
+      required: true
+  - type: textarea
+    id: versions
+    attributes:
+      label: Versions and setup
+      description: Whatever you know. In PlugVR, Settings → General → About shows the app's version and your server's Stash version.
+      value: |
+        PlugVR:
+        Headset (Quest 3 or 3S) and its Horizon OS version:
+        Stash:
+        Is the server on the same network as the headset?
+  - type: input
+    id: video
+    attributes:
+      label: For a playback problem, the video
+      description: Its resolution, codec and VR format, such as "8K HEVC, 180° side-by-side". Not its title.
